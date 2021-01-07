@@ -68,7 +68,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/product/lib64/vendor.qti.hardware.fm@1.0.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	prefer: true,
 	product_specific: true,
 }
